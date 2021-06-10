@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var Input = prompt("Enter string!");
 if(Input.charCodeAt(0) > 90)
 {
@@ -16,3 +17,8 @@ for(let i = 0; i < Input.length;i++)
     }
 }
 alert(Input);
+=======
+var str = prompt("Enter string!");
+str[0].toUpperCase();
+alert(str);
+>>>>>>> a5441abbb969219f516d6c1479b3ca16a16cbaa9
